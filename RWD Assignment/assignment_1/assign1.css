@@ -1,0 +1,34 @@
+.sidenav {
+    height: 80%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 80px;
+    left: 0;
+    background-color: rgb(204, 194, 194);
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: black;
+  }
+
+
+
+@media screen and (max-width: 580px){
+    .hiddenEle{
+        display: none;
+    }
+    .sidenav{
+        display: none;
+    }
+    .content-1{
+        width: 100%;
+        columns: 200px 2;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+}
+.content-1{
+    columns: 100PX 3;
+    padding-left: 200px;
+    padding-top: 50px;
+}

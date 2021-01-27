@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Drag & Drop API</title>
+        <link rel="stylesheet" href="./Assignment_3.css">
+        <script type="text/javascript" src="./assignment_3.js"></script>
+    </head>
+    <body>
+        <div class="">
+            <p>
+                Drag the Image below into the box.
+            </p>
+
+            <div class="divDrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <img id="dragImg" src="logo.png" draggable="true" ondragstart="drag(event)" width="280" height="80">
+        </div>
+    </body>
+</html>

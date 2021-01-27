@@ -1,0 +1,35 @@
+<!DOCTYPE HTML5>
+<html>
+    <head>
+        <link rel="stylesheet" href="./Assignment_1.css">
+        <title>Registration form</title>
+    </head>
+    <body>
+        <center>
+            <div class="divClass">
+                <h1>Registration Form for vendors</h1><br><hr>
+                <form action="">
+                    <label> Name : </label>
+                    <input type="text" name="fullName" id="name1" placeholder="Enter Your Name" required><br><br>
+                    <label> Phone Number : </label>
+                    <input type="tel" name="fullName" id="number" placeholder="" pattern="^[1-9]+[0-9]*$" required><br><br>
+                    <label> Email ID : </label>
+                    <input type="email" name="fullName" id="mail" placeholder="Enter Your email ID" required><br><br>
+                    <p>Please select your gender : </p>
+                         <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label><br>
+                         <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                         <label for="other">Other</label>
+                    <br><br>
+                    <label> Address : </label>
+                    <textarea name="address" id="" cols="40" rows="5"></textarea><br><br><hr>
+                    <button type="Submit" name="Login">Sign In</button>
+                    <a href="./Assignment_1_login.html">Go to login Page</a><br>
+                    <a href="./Assignment_1_Payment.html">Go to Payment Page</a>
+                </form>
+            </div>
+        </center>
+    </body>
+</html>

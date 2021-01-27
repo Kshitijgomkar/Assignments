@@ -1,0 +1,16 @@
+form .error{
+    color:lightblue;
+}
+#check{
+    display: inline;
+}
+th,td{
+    padding-right:60px ;
+    padding-top: 20px;
+}
+select{
+    width: 70px;
+}
+.ul-autocomplete{
+    position: relative;
+}

@@ -1,0 +1,107 @@
+
+
+body {
+    color: #6cacc5;
+    font-family:"monospace";
+    margin: 10%;
+    padding: 10px 0 20px;
+    text-align: center;
+  }
+
+  table{
+      border: 1px solid black;
+      padding: 10px;
+      margin: 10px;
+      box-shadow: 2px 2px 6px black;
+  }
+
+  .display{
+      width: 100%;
+      height: 100%;
+      background-color: rgb(166, 168, 170);
+      border: none;
+      border-radius: 2px;
+      color: black;
+      
+  }
+
+
+  .display:hover{
+      background-color: rgb(166, 168, 170);
+  }
+
+ input[class="keys"] {
+    border: 0;
+    background-color:rgb(29, 28, 28);
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0.25em;
+    width: 4em;
+    height: 4em;
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+    input:hover {
+      background: rgb(68, 67, 67);
+      color: rgb(255, 255, 255);
+      box-shadow: 2px solid rgb(68, 66, 66);
+    }
+
+    .ops{
+        border: 0;
+        font-size: 15px;
+        cursor: pointer;
+        margin: 0.25em;
+        width: 4em;
+        height: 4em;
+        border-radius: 20px;
+        transition: all 0.3s;
+        background-color: rgb(245, 153, 16);
+        color: white; 
+     
+    }
+
+    .ops:hover{
+        background-color: rgb(233, 236, 19);
+        color: black;
+    }
+
+    .funcBtn{
+        background-color: rgb(82, 77, 77);
+        color: white;
+        border: 0;
+        font-size: 15px;
+        cursor: pointer;
+        margin: 0.25em;
+        width: 4em;
+        height: 4em;
+        border-radius: 20px;
+        transition: all 0.3s;
+    }
+    .funcBtn:hover{
+        background-color:rgb(48, 45, 45) ;
+    }
+
+    .equals{
+        border: 0;
+        background-color: rgb(74, 180, 74);
+        color: #ffffff;
+        font-size: 15px;
+        cursor: pointer;
+        margin: 0.25em;
+        width: 4em;
+        height: 4em;
+        border-radius: 20px;
+        transition: all 0.3s;
+    }
+
+    .equals:hover{
+        background-color: rgb(25, 233, 25);
+        color: #000000;
+    }
+    
+#myDiv{
+    display: inline-block;
+}
+    

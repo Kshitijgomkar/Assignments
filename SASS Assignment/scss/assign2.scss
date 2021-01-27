@@ -1,0 +1,51 @@
+$borderRadius:3px;
+$paddingBtn: 20px 30px 20px 30px; 
+$bgColor: #8bc34a; 
+$fontStyle: "SegoeUI SemiBold"; 
+
+button{
+    padding: $paddingBtn;
+    border-radius: $borderRadius;
+    margin: 20px;
+    min-width: 110px;
+    width: 200px;
+    font-size: 16px; 
+    color: #FFFFFF; 
+}
+.primary{
+    @extend button;
+    background-color: #8bc34a; 
+    color: #FFFFFF; 
+    border: 1px solid #8bc34a;
+
+    &:hover { background-color: #9dce5d; 
+        color: #FFFFFF; 
+        border: 1px solid #9dce5d; 
+        cursor: pointer;}
+
+    &:disabled{
+        background-color: #eeeeee; 
+        color: #999999; 
+        border: 1px solid #eeeeee; 
+    }
+}
+.secondary{
+    @extend button;
+    background-color: #FFFFFF; 
+    color: #2095f2; 
+    border: 1px solid #2095f2;
+    &:hover { background-color: #2095f2; 
+        color: #FFFFFF; 
+        border: 1px solid #2095f2;
+        cursor: pointer;}
+
+    &:disabled{
+        background-color: #ffffff; 
+        color: #999999; 
+        border: 1px solid #cccccc; 
+    }
+}
+
+
+
+

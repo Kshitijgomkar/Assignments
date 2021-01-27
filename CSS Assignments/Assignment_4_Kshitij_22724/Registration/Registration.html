@@ -1,0 +1,110 @@
+<!DOCTYPE HTML5>
+<html>
+    <head>
+        <link rel="stylesheet" href="./Registration.css">
+    </head>
+    <body>
+       
+         <form action="success.html" method="POST" >
+                    <h2>Registration Form</h2> <hr>
+                <div class="tableDiv">
+
+                    <div class="table-row-div">
+                         <div class="table-col-div">
+                             <label for=""> Employee ID :</label>
+                        </div>
+                        <div class="table-col-div">
+                             <input type="number" id="num1" autofocus min="10001" max="15000" required>
+                         </div>
+                    </div>
+
+                    <div class="table-row-div">
+                        <div class="table-col-div">
+                            <label for=""> First Name :</label>
+                       </div>
+                       <div class="table-col-div">
+                            <input type="text" id="firstName" placeholder=" Enter first name " required minlength="3" maxlength="15" pattern="[A-Za-z]+">
+                        </div>
+                   </div>
+
+                   <div class="table-row-div">
+                         <div class="table-col-div">
+                             <label for=""> Last Name :</label>
+                        </div>
+                        <div class="table-col-div">
+                           <input type="text" id="lastName" placeholder=" Enter last name " required  minlength="3" maxlength="15" pattern="[A-Za-z]+">
+                        </div>
+                   </div>
+
+                   <div class="table-row-div">
+                         <div class="table-col-div">
+                            <br><label for=""> Department :</label>
+                        </div>
+                          <div class="table-col-div" >
+                            <input type="radio" id="dptIT" value="IT" > IT  <br>
+                            <input type="radio" id="dptHR" value="HR"> HR <br>
+                             <input type="radio" id="dptFinance" value="Finance"> Finance <br>
+                           <input type="radio" id="dptAdmin" value="Admin"> Admin <br>
+                       </div>
+                   </div>
+
+                  <div class="table-row-div">
+                         <div class="table-col-div">
+                               <label for=""> Date of Joining :</label>
+                        </div>
+                         <div class="table-col-div">
+                              <input type="date" id="doj" required max="2020-12-14">
+                           </div>
+                  </div>
+
+                 <div class="table-row-div">
+                        <div class="table-col-div">
+                             <label for="">Email Id :</label>
+                       </div>
+                       <div class="table-col-div">
+                          <input type="email" id="emailID" placeholder="  enter your email address " required>
+                       </div>
+                </div>
+
+                 <div class="table-row-div">
+                         <div class="table-col-div">
+                             <label for="">Contact No :</label>
+                       </div>
+                        <div class="table-col-div">
+                              <input type="tel" id="contactNo" placeholder="  enter contact no " pattern="[0-9]{1}[0-9]{9}"  required>
+                       </div>
+                </div>
+
+                <div class="table-row-div">
+                    <div class="table-col-div">
+                        <label for="">Address :</label>
+                  </div>
+                   <div class="table-col-div">
+                         <textarea name="address" id="" cols="60" rows="10" required></textarea>
+                  </div>
+             </div>
+
+             <div class="table-row-div">
+                <div class="table-col-div">
+                   <br><label for=""> Training Programs to be Attended :</label>
+               </div>
+                     <div class="table-col-div">
+                   <input type="checkbox" id="chkbxwb" value="Web_basics"> Web Basics  <br>
+                   <input type="checkbox" id="chkbxC" value="C_sharp"> C#  <br>
+                   <input type="checkbox" id="chkbEF" value="entity_framework"> Entity Framework  <br>
+                   <input type="checkbox" id="chkbxasp" value="asp_mvc"> ASP.NET MVC  <br>
+                  </div>
+            </div>
+
+            <div class="table-row-div">
+                  <div class="table-col-div"></div>
+              <div class="table-col-div">
+                     <button type="submit"> Register </button>
+                    <a  class="cancel" href="">  <button type="reset"> Cancel </button>  </a>
+                </div>
+            </div>
+
+        </div>
+        </form>
+    </body>
+</html>

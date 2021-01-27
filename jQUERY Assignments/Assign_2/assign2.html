@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assign2.css">
+    <script src="../lib/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="http://dev.jquery.com/view/trunk/plugins/autocomplete/jquery.autocomplete.js"></script>
+    
+    <script src="./assign2.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div class="container">
+            <h2>Registration Form</h2>
+            <form action="" name="registration">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="username"> FirstName : </label>
+                        </td>
+                        <td>
+                           <input type="text" pattern="[A-Za-z0-9_]{8}" name="dname" id="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password"> Password :</label>
+                        </td>
+                        <td>
+                            <input type="password" name="password" id="password" placeholder="Enter password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="emailID"> Email ID :</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" id="email" placeholder="Enter Email Address">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="ConfirmPass"> Confirm Password :</label>
+                        </td>
+                        <td>
+                            <input type="password" name="confirmPass" id="confirmPass" placeholder="Confirm password">
+                            <input type="checkbox" id="show" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="mobile"> Contact No. :</label>
+                        </td>
+                        <td>
+                            <input type="tel" name="tel" id="tel" required><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="city"> Select City :</label>
+                        </td>
+                        <td><input list="cities" name="city" autocomplete="off">
+                            <datalist id="cities">
+                                <option value="Nagpur"></option>
+                                <option value="Surat"></option>
+                                <option value="Jaipur"></option>
+                                <option value="Indore"></option>
+                                <option value="Mumbai"></option>
+                                <option value="Pune"></option>
+                            </datalist></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="skills"> Skills : </label>
+                        </td>
+                        <td><select data-placeholder="Choose your skills" class="choseSelect" multiple tabindex="4">
+                            <option value=""></option>
+                            <option value="C">C</option>
+                            <option value="C++">C++</option>
+                            <option value="HTML">HTML</option>
+                            <option value="Java">Java</option>
+                            <option value="React">React</option>
+                            <option value="Angular">Angular</option>
+                            <option value="Python">Python</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="JavaScript">JavaScript</option>
+                         
+                            
+                        </select></td>
+                    </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit">  Register  </button>
+                        <button type="reset">  Reset  </button>
+                    </td>
+                </tr>
+                
+            </table>
+            </form>
+        </div>
+    </center>
+</body>
+</html>

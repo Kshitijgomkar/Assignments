@@ -1,0 +1,18 @@
+.carousel-inner img {
+    height:600px;
+    width: 100%;
+}
+
+.container-fluid{
+    color:black; 
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: darkblue;
+}
+.btn-warning:hover{
+    background-color: white;
+    color: black;
+    border-color: yellow;
+}

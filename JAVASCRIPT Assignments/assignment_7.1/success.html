@@ -1,0 +1,54 @@
+<!Doctype HTML5>
+<html>
+    <head>
+        <title>WAYNE Enterprises</title>
+        <style>
+            body{
+      background-image: url("./bgsuccess.jpg");
+       background-repeat: no-repeat;
+     background-position: center;
+      background-size: cover;
+}
+
+#pTag{
+    padding: 20;
+    font-size: 20px;
+    color: white;
+}
+p{
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 20px;
+    padding-left: 30%;
+}
+        </style>
+        <script>
+           function countFunc(){
+                    var secondsElement = document.getElementById("seconds");
+                    var msElement = document.getElementById("milliseconds");
+                    requestAnimationFrame(function updateTimeSpent(){
+                        var timeNow = performance.now();
+                        secondsElement.value = round(timeNow/1000);
+                        msElement.value = round(timeNow);
+                        requestAnimationFrame(updateTimeSpent);
+                    });
+                    var performance = window.performance, round = Math.round;
+                    }
+        </script>
+
+    </head>
+    <body onload="countFunc();">
+        <div id="successDiv">
+            <marquee>
+             <p id="pTag"> Welcome to Wayne Enterprises . 
+                You have successfully Logged In...!!!</p>  </marquee>
+
+                <div id="timer">
+                        <p>You have been on this page for :  <input id="seconds" size="1" readonly="" /> seconds </p>
+                </div>
+
+               
+                <input id="milliseconds" size="6" readonly=""  style="display: none;"/>
+        </div>
+    </body>
+</html>

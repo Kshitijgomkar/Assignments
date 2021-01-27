@@ -1,0 +1,59 @@
+<!doctype html5>
+<html>
+    <head>
+        <title>Js Form Validation</title>
+        <link rel="stylesheet" href="./assign1.css">
+        <script src="./assign1.js"></script>
+    </head>
+    <body>
+        
+        <div id="outDiv">
+            <div id="formDiv">
+                    
+                <table id="tblDiv">
+                    <center> <img src="./wayneLogo.png"  alt="" style="float: left; margin:none;" width="130px" height="130px">
+                   <h1>Sign Up form</h2><br><hr></center>
+
+                    <form action="./success.html"  name="formValidate" id="Myform"  onsubmit="return validateForm();">
+                        <tr>
+                             <td> <label for="">First Name : </label></td>
+                             <td><input type="text" class="txtbox" id="firstName" name="firstName" placeholder=" Enter First name" ></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="">Last Name : </label></td>
+                            <td> <input type="text" class="txtbox"  id="lastName"   name="lastName" placeholder=" Enter Last name" ></td>
+                        </tr>
+                        <tr>
+                        <td><label for=""> Date of Birth : </label></td>
+                        <td><input type="text" name="dob" class="txtbox" id="dob"  placeholder=" Enter  date of birth" onfocusout="dateFunc();"></td>
+                        </tr>
+                        <tr>
+                        <td><label for="">Email Address : </label></td>
+                        <td><input type="text" name="email" class="txtbox" id="email" placeholder=" Enter Email ID" ></td>
+                        </tr>
+                        <tr>
+                        <td><label for="">Hobbies : </label></td>
+                        <td><input type="checkbox" value="Reading" id="Reading" name="Reading" onclick="myFunction()">   Reading <br>
+                            <input type="checkbox" value="Movies" id="Movies" name="Movies">   Watching Movies <br>
+                            <input type="checkbox" value="Photography" id="Photography" name="Photography">   Photography <br>
+                        </td>
+                          </tr>
+                          <tr id="chkverify">
+                              <td><Label>Favourite Writer : </Label></td>
+                              <td><input type="text" placeholder="" class="txtbox" name="writer"></td>
+                          </tr>
+                          
+                          <tr>
+                              <td></td>
+                              <td>
+                                  <input type="submit" value="Submit" id="btn1"  > 
+                                  <input type="reset" value="Reset" id="btn2"> 
+                              </td>
+                          </tr>
+                    </form>
+                </table>
+            </div>
+        </div>
+
+    </body>
+</html>

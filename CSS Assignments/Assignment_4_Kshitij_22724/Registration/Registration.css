@@ -1,0 +1,53 @@
+
+
+form{
+    align-self: center;
+    margin: 30px;
+    padding: 30px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+  .table-row-div {
+    display: table-row;
+  }
+  .table-col-div {
+     width: 50%;
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  #firstName,#lastname,#emailID,#contactNo{
+      width: 80%;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    height: 30px;
+    color: gray;
+  }
+
+  button{
+      width: 30%;
+      padding: 10px;
+      border: none;
+      background-color: gray;
+      color: white;
+      border-radius: 3px;
+      font-family: monospace;
+      font-size: 20px;
+      cursor: pointer;
+      text-decoration: none;
+  }
+
+  button:hover{
+      background-color: rgb(83, 82, 82);
+      text-decoration: none;
+  }
+
+  a.register:link{text-decoration: none;}
+  a.register:visited{text-decoration: none;}
+  a.register:hover{text-decoration: none;}
+
+  a.cancel:link{text-decoration: none;}
+  a.cancel:visited{text-decoration: none;}
+  a.cancel:hover{text-decoration: none;}

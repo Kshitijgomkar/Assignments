@@ -1,0 +1,46 @@
+$fontSize:13px;
+$color:#666666;
+$fontStyle: SegoUI;
+$inputWidth: 300px;
+$inputHeight: 30px;
+
+%input-shared{
+    border-radius: 3px; 
+    padding-left:10px ;
+    width: $inputWidth;
+    height: $inputHeight;   
+    font-family: $fontStyle;
+    padding: 10px left;
+    font-size: $fontSize;
+    border: 1px solid ;
+    margin: 20px;
+}
+.normal{
+    @extend %input-shared;
+}
+.disabled{
+    @extend %input-shared;
+    background-color:#eeeeee; 
+    color:#999999; 
+    cursor: not-allowed; 
+}
+.error{
+    @extend %input-shared;
+    background-color:#fde7e1 ;
+    border:1px solid #f44336 ;
+    color:#f44336 ;
+}
+.textItem{
+    align-items: center;
+    font-family: $fontStyle;
+    font-size: 20px;
+    color: black;
+}
+.inputControl{
+    margin: 100px;
+    padding: 30px;
+    width: 50%;
+    height: 30%;
+    font-size: $fontSize;
+}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE HTML5>
+<html>
+    <head><title>window Properties</title> </head>
+
+    <style>
+    th ,td{
+            border: 1px solid black;
+        }
+    </style>
+    <body>
+        <div class="table">
+            <br><br><br>
+            <table>
+                <tr>
+                    <th>HREF</th>
+                    <td id="hrefProp">
+                        <script>
+                             document.write(window.location.href);
+                         </script>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Path Name</th>
+                    <td id="pathprop">
+                        <script>
+                            document.write(window.location.pathname);
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Protocol</th>
+                    <td id="protocolProp">
+                        <script>
+                            document.write(window.location.protocol);
+                        </script>
+                    </td>
+                </tr>
+            </table>
+        </div><br> <hr>
+        <p> Click <a href="./register.html"> here </a> to Register</p>
+    </body>
+
+    
+</html>

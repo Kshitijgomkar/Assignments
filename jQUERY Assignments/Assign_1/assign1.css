@@ -1,0 +1,59 @@
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+ul{
+    color: white;
+   
+}
+header{
+    background-color: dodgerblue;
+    background-size: contain;
+    box-shadow: 0px 0px 5px black;
+    text-align: center;
+    padding: 10px;
+}
+.dataShow{
+    display: grid;
+    text-align: center;
+}
+li{
+    display: inline;
+    padding: 5px;
+    size: 100%;
+}
+li:hover{
+    background-color: rgb(93, 167, 241);
+    cursor: pointer;
+}
+
+
+ /* Main Page Container */
+.contain{
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contentImg{
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid grey;
+    width: 180px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px 10px 10px 10px;
+}
+.ele{
+    display: block;
+}
+.title{
+    width: 100%;
+    
+}
+.contentImg img{
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+}

@@ -1,0 +1,60 @@
+
+<!DOCTYPE HTML>
+<head>
+    <title>Js Calculator</title>
+    <script type="text/javascript" src="./calculator.js"></script>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+
+<body>
+    <div>
+     <table>
+            
+            <tr><td colspan="4" rowspan="1"><input class="display" type="text" id="result" disabled> <hr></td> </tr>
+
+                <!-- clr() function will call clr to clear all value -->
+            <tr> <td><input class="funcBtn" type="button" value="AC" onclick="clr()"/>
+
+                <!-- bckspc() function will clear signle value at a time -->
+                <input class="funcBtn" type="button" value="<" onclick="bckspc()"/> 
+                <input class="funcBtn" type="button" value="Sci" onclick="myScientific()" /> </td>
+            </tr>
+            
+                
+            <tr>
+            <!--  buttons and  values-->
+            <td><input class="ops" type="button" value="+" onclick="dis('+')"/> 
+            <input class="keys" type="button" value="1" onclick="dis('1')"/> 
+            <input  class="keys" type="button" value="2" onclick="dis('2')"/> 
+            <input class="keys" type="button" value="3" onclick="dis('3')"/> </td>
+            </tr>
+            <tr>
+            <td><input class="ops" type="button" value="-" onclick="dis('-')"/> 
+            <input  class="keys" type="button" value="4" onclick="dis('4')"/> 
+            <input class="keys"  type="button" value="5" onclick="dis('5')"/> 
+            <input class="keys" type="button" value="6" onclick="dis('6')"/> </td>
+            </tr>
+            <tr>
+            <td><input class="ops" type="button" value="*" onclick="dis('*')"/>
+            <input class="keys" type="button" value="7" onclick="dis('7')"/> 
+            <input  class="keys" type="button" value="8" onclick="dis('8')"/> 
+            <input  class="keys" type="button" value="9" onclick="dis('9')"/> </td>
+            </tr>
+            <tr>
+            <td><input class="ops" type="button" value="/" onclick="dis('/')"/> 
+            <input  class="keys" type="button" value="." onclick="dis('.')"/> 
+            <input class="keys" type="button" value="0" onclick="dis('0')"/> 
+           
+            <input type="button" class="equals" value="=" onclick="solve()"/> </td>
+            <tr id="myDiv" >
+                <td><input class="keys" type="button" value="sqrt" onclick="mySqrt()"/> 
+                <input class="keys" type="button" value="^2" onclick="mySqaure()"/> 
+                 <input class="keys" type="button" value="^3" onclick="myCube()"/> </td>
+            </tr>
+        </tr>
+        <!-- Scientitifc buttons -->
+        
+    
+     </table>
+    </div>
+    </body>

@@ -1,0 +1,71 @@
+body{
+    background-image: url("./black-background-images-3.jpg");
+    margin: 0;
+}
+
+.top-bar{
+    float: left;
+    height: 15%;
+    clear: both;
+}
+
+.navbar-top{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+}
+
+.navbar-btn{
+    margin-left: 20px;
+   
+}
+
+.navbar-btn button{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px  black;
+    cursor: pointer;
+}
+
+.navbar-btn button:hover{
+    background-color: gray;
+    border: 1px solid black;
+    color: black;
+    width: 7%;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px  black;
+}
+
+.nav-srch{
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    border: none;
+    width: 30%;
+    height: 40%;
+    border-radius: 4px;
+    box-shadow: 2px 2px black;
+}
+
+.divLarge{
+    width: 100%;
+    float: left;
+    height: 250px;
+}
+
+.container {
+    width: 100%;
+    /* height: 20%; */
+    float: left;
+    background-color: black;
+  }
+  
+  .one {
+    background: black;
+    float: left;
+  }
+  

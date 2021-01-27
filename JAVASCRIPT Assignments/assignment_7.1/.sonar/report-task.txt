@@ -1,0 +1,5 @@
+projectKey=coverage-demo-22724
+serverUrl=http://172.27.12.78
+dashboardUrl=http://172.27.12.78/dashboard/index/coverage-demo-22724
+ceTaskId=AXayjIaJirXW5IlAPW9I
+ceTaskUrl=http://172.27.12.78/api/ce/task?id=AXayjIaJirXW5IlAPW9I

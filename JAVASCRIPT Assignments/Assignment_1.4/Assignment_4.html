@@ -1,0 +1,27 @@
+<!DOCTYPE HTML5> 
+ <html> 
+      <head> 
+        <script type="text/javascript" src="./common.js"></script>
+           <title>Embedding Script tag in HTML Document</title> 
+            <script> 
+                var headVar = 20;
+                document.write(headVar);
+            </script>     
+        </head> 
+        <script>  
+                var bodyVar = 30;   
+                document.write(" & "); 
+                document.write(bodyVar);  
+                // document.write(headVar);            
+             </script>
+
+            <hr>
+            <script>
+                    var addition = addNumbers(headVar,bodyVar);
+                    
+                    document.write(" addition of above numbers  = "+addition);
+            </script>
+            <hr>
+        </body> 
+ </html> 
+ 
